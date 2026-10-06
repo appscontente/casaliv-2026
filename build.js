@@ -55,6 +55,9 @@ const head = (title, desc, d, ogImg) => `<!doctype html>
 <meta property="og:description" content="${esc(desc)}">
 ${ogImg ? `<meta property="og:image" content="${esc(ambUrl(C))}imagens/${esc(ogImg)}">` : ''}
 <meta name="theme-color" content="#000000">
+<link rel="icon" type="image/svg+xml" href="${R(d)}imagens/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="${R(d)}imagens/favicon-32.png">
+<link rel="apple-touch-icon" href="${R(d)}imagens/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Source+Serif+4:ital,wght@1,400&display=swap" rel="stylesheet">
