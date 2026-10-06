@@ -1,0 +1,5 @@
+node_modules/
+video/frames/
+entregas/
+.DS_Store
+.claude/

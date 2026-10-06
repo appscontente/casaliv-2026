@@ -1,0 +1,3 @@
+Grave esta URL na tag NFC da placa de entrada (registro NDEF do tipo URL/URI):
+
+https://www.casacontente.com.br/casalivtatimadeiro/?nfc

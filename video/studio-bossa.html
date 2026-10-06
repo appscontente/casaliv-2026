@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Studio Bossa · vídeo</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Source+Serif+4:ital,wght@1,400&display=swap" rel="stylesheet">
+<style>
+  /* Quadro vertical 1080 × 1920. A animação é controlada por render(t), quadro a quadro. */
+  :root { --freijo: #3b2a1d; --mostarda: #c89a3a; --bahia: #d9c6a6; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1920px; overflow: hidden; background: #000; font-family: Poppins, sans-serif; color: #fff; }
+  .scene { position: absolute; inset: 0; opacity: 0; overflow: hidden; }
+  .bg { position: absolute; inset: -4%; background-size: cover; background-position: center; will-change: transform; }
+  .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,14,9,.25) 0%, rgba(20,14,9,.1) 35%, rgba(20,14,9,.88) 78%); }
+  .txt { position: absolute; left: 90px; right: 90px; bottom: 260px; }
+  .eyebrow { font-size: 26px; letter-spacing: 7px; text-transform: uppercase; font-weight: 600; color: var(--mostarda); }
+  h1 { font-size: 168px; line-height: .95; font-weight: 600; letter-spacing: 6px; text-transform: uppercase; margin: 24px 0 18px; }
+  h2 { font-size: 64px; line-height: 1.12; font-weight: 400; letter-spacing: 3px; text-transform: uppercase; }
+  h2 b { font-weight: 700; }
+  .quote { font-family: "Source Serif 4", serif; font-style: italic; font-size: 76px; line-height: 1.2; }
+  .sub { font-size: 36px; font-weight: 300; letter-spacing: 2px; margin-top: 26px; line-height: 1.4; }
+  .sub b { font-weight: 600; }
+  .logo { height: 70px; width: auto; }
+  .line { height: 2px; background: var(--mostarda); width: 0; margin: 34px 0; }
+  .in { opacity: 0; transform: translateY(30px); }
+  /* Cena 2: arquiteta */
+  #s2 { background: radial-gradient(circle at 50% 42%, #5a4330, var(--freijo) 65%); }
+  #s2 .cut { position: absolute; left: 50%; bottom: 0; height: 1500px; transform: translateX(-50%); -webkit-mask-image: linear-gradient(180deg, #000 80%, transparent); }
+  #s2 .ring { position: absolute; left: 50%; top: 260px; width: 860px; height: 860px; margin-left: -430px; border: 2px solid var(--mostarda); border-radius: 50%; opacity: .5; }
+  /* Cena 5: produtos */
+  .prod { position: absolute; inset: 0; opacity: 0; }
+  .prod img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .prod .tag { position: absolute; left: 90px; right: 90px; bottom: 300px; }
+  .prod .code { font-size: 28px; letter-spacing: 6px; color: var(--mostarda); font-weight: 600; }
+  .prod .name { font-size: 62px; font-weight: 600; line-height: 1.1; margin-top: 10px; }
+  .prod .brand { font-size: 26px; letter-spacing: 5px; text-transform: uppercase; margin-top: 16px; opacity: .8; }
+  /* Cena 6: paleta */
+  #s6 { background: #f9f9f9; color: #1d1611; }
+  #s6 .txt { bottom: auto; top: 300px; }
+  #s6 h2 { color: #1d1611; }
+  .sw { display: grid; grid-template-columns: repeat(2, 1fr); gap: 60px 40px; margin-top: 110px; }
+  .sw div { text-align: center; opacity: 0; transform: scale(.6); }
+  .sw i { display: block; width: 250px; height: 250px; border-radius: 50%; margin: 0 auto 22px; }
+  .sw b { font-size: 32px; font-weight: 600; }
+  .sw small { display: block; font-family: "Source Serif 4", serif; font-style: italic; font-size: 26px; color: #6b5a4c; margin-top: 4px; }
+  .sw div:last-child { grid-column: span 2; }
+  /* Cena 7: chamada final */
+  #s7 { background: var(--freijo); }
+  #s7 .center { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 100px; }
+  #s7 .qr { width: 300px; height: 300px; border: 3px solid var(--mostarda); border-radius: 36px; display: grid; place-items: center; margin-bottom: 70px; }
+  #s7 .qr svg { width: 170px; height: 170px; }
+  #s7 h2 { font-size: 58px; }
+  #s7 .date { margin-top: 60px; font-size: 30px; letter-spacing: 6px; text-transform: uppercase; color: var(--bahia); }
+  #s7 .logo { height: 96px; margin-top: 110px; }
+  .arc { position: absolute; border: 2px solid var(--mostarda); border-radius: 50%; opacity: .4; }
+</style>
+</head>
+<body>
+
+<!-- 1 · Abertura -->
+<section class="scene" id="s1">
+  <div class="bg" style="background-image:url('../imagens/ambiente-estar.jpg')"></div>
+  <div class="shade"></div>
+  <div class="txt">
+    <div class="in a1"><span class="eyebrow">Casa Liv 2026 · Belém – PA</span></div>
+    <div class="in a2" style="margin-top:46px;display:flex;align-items:center;gap:26px;font-size:30px;letter-spacing:6px;text-transform:uppercase"><img class="logo" src="../imagens/logo-cc-bartzen-branco.png" alt=""> apresentam</div>
+    <h1 class="in a3">Studio<br>Bossa</h1>
+    <div class="in a4 sub">Um loft assinado por <b>Studio TM</b></div>
+  </div>
+</section>
+
+<!-- 2 · Arquiteta -->
+<section class="scene" id="s2">
+  <span class="ring"></span>
+  <img class="cut" src="../imagens/tatiane-recorte.webp" alt="">
+  <div class="shade" style="background:linear-gradient(180deg,transparent 55%,rgba(20,14,9,.92) 82%)"></div>
+  <div class="txt" style="bottom:200px">
+    <div class="in a1"><span class="eyebrow">Quem assina</span></div>
+    <h2 class="in a2" style="margin-top:20px"><b>Tatiane Madeiro</b></h2>
+    <div class="in a3 sub" style="margin-top:14px">Arquitetura · Engenharia · Design</div>
+  </div>
+</section>
+
+<!-- 3 · Conceito -->
+<section class="scene" id="s3">
+  <div class="bg" style="background-image:url('../imagens/ambiente-closet.jpg')"></div>
+  <div class="shade"></div>
+  <div class="txt">
+    <div class="in a1"><span class="eyebrow">O conceito</span></div>
+    <div class="line a2"></div>
+    <p class="quote in a3">“Bossa é jeito. É a forma brasileira e paraense de habitar com leveza e presença.”</p>
+  </div>
+</section>
+
+<!-- 4 · Borogodó -->
+<section class="scene" id="s4">
+  <div class="bg" style="background-image:url('../imagens/ambiente-cozinha.jpg')"></div>
+  <div class="shade"></div>
+  <div class="txt">
+    <div class="in a1"><span class="eyebrow">A camada sensorial</span></div>
+    <h2 class="in a2" style="margin-top:22px">O <b>Borogodó</b></h2>
+    <p class="quote in a3" style="font-size:62px;margin-top:30px;color:var(--bahia)">“É o que não se explica, mas se sente.”</p>
+  </div>
+</section>
+
+<!-- 5 · Produtos -->
+<section class="scene" id="s5">
+  <div class="prod"><img src="../imagens/closet-bartzen-amb.jpg" alt=""><div class="shade"></div><div class="tag"><div class="code">SB-01</div><div class="name">Closet em Freijó com vidro acidato</div><div class="brand">Bartzen Ambientes Planejados</div></div></div>
+  <div class="prod"><img src="../imagens/cozinha-bartzen-amb.jpg" alt=""><div class="shade"></div><div class="tag"><div class="code">SB-04</div><div class="name">Cozinha planejada com aéreo Ocre Solar</div><div class="brand">Bartzen Ambientes Planejados</div></div></div>
+  <div class="prod"><img src="../imagens/sofa-casulo-amb.jpg" alt=""><div class="shade"></div><div class="tag"><div class="code">SB-05</div><div class="name">Sofá-cama Casulo</div><div class="brand">Casa Contente</div></div></div>
+  <div class="prod"><img src="../imagens/poltrona-wooden-ball-amb.jpg" alt=""><div class="shade"></div><div class="tag"><div class="code">SB-06</div><div class="name">Poltrona Wooden Ball</div><div class="brand">Casa Contente</div></div></div>
+  <div class="prod"><img src="../imagens/cadeira-evora-amb.jpg" alt=""><div class="shade"></div><div class="tag"><div class="code">SB-08</div><div class="name">Cadeira Évora</div><div class="brand">Casa Contente</div></div></div>
+</section>
+
+<!-- 6 · Paleta -->
+<section class="scene" id="s6">
+  <div class="txt">
+    <div class="in a1"><span class="eyebrow">Materialidade &amp; paleta</span></div>
+    <h2 class="in a2" style="margin-top:22px">Uma paleta que nasce do <b>Borogodó</b></h2>
+    <div class="sw">
+      <div><i style="background:#3b2a1d"></i><b>Freijó e Absoluto</b><small>Móveis planejados</small></div>
+      <div><i style="background:#895a3a"></i><b>Couro natural</b><small>Sofá-cama</small></div>
+      <div><i style="background:#d9c6a6"></i><b>Bege Bahia</b><small>Mármore</small></div>
+      <div><i style="background:#c89a3a"></i><b>Amarelo mostarda</b><small>Cadeiras e aéreo</small></div>
+      <div><i style="background:#a9563b"></i><b>Terracota</b><small>Tapete e objetos</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · Chamada final -->
+<section class="scene" id="s7">
+  <span class="arc" style="width:900px;height:900px;right:-420px;top:-380px"></span>
+  <span class="arc" style="width:600px;height:600px;left:-320px;bottom:-260px"></span>
+  <div class="center">
+    <div class="qr in a1"><svg viewBox="0 0 24 24" fill="none" stroke="#c89a3a" stroke-width="1.6"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 20h4v-3"/></svg></div>
+    <h2 class="in a2">Aponte a câmera nos <b>QR codes</b> e conheça cada peça</h2>
+    <div class="in a3 date">A partir de 05 de outubro · Casa Liv 2026</div>
+    <img class="logo in a4" src="../imagens/logo-cc-bartzen-branco.png" alt="Casa Contente + Bartzen">
+  </div>
+</section>
+
+<script>
+// Linha do tempo (segundos). Cada cena tem início, fim e 0,6 s de transição cruzada.
+const SCENES = [['s1', 0, 4.5], ['s2', 4.5, 8.5], ['s3', 8.5, 13], ['s4', 13, 17], ['s5', 17, 24.5], ['s6', 24.5, 28.5], ['s7', 28.5, 33]];
+const DURATION = 33, FADE = .6;
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const ease = x => 1 - Math.pow(1 - clamp(x), 3);
+
+function render(t) {
+  for (const [id, a, b] of SCENES) {
+    const el = document.getElementById(id);
+    const op = id === 's1' ? (t < b ? 1 : 1 - (t - b) / FADE) : Math.min(clamp((t - a) / FADE), t > b ? 1 - (t - b) / FADE : 1);
+    el.style.opacity = clamp(op);
+    const local = t - a, len = b - a;
+    // Movimento lento de câmera (Ken Burns) no fundo
+    const bg = el.querySelector(':scope > .bg');
+    if (bg) bg.style.transform = `scale(${1.04 + .08 * clamp(local / (len + FADE))}) translateY(${-14 * clamp(local / len)}px)`;
+    // Textos entram em sequência
+    el.querySelectorAll('.in').forEach(n => {
+      const k = [1, 2, 3, 4].find(i => n.classList.contains('a' + i)) || 1;
+      const p = ease((local - .35 - (k - 1) * .35) / .7);
+      n.style.opacity = p; n.style.transform = `translateY(${30 * (1 - p)}px)`;
+    });
+    el.querySelectorAll('.line').forEach(n => n.style.width = 220 * ease((local - .6) / .8) + 'px');
+    if (id === 's2') {
+      const p = ease(local / 1.4);
+      el.querySelector('.cut').style.transform = `translateX(-50%) translateY(${60 * (1 - p)}px) scale(${1.02 - .02 * p})`;
+      el.querySelector('.cut').style.opacity = p;
+    }
+    if (id === 's5') {
+      const items = [...el.querySelectorAll('.prod')], step = len / items.length;
+      items.forEach((n, i) => {
+        const s = i * step, l = local - s;
+        n.style.opacity = i === 0 ? clamp(l < step ? 1 : 1 - (l - step) / .4) : clamp(Math.min(l / .4, l > step ? 1 - (l - step) / .4 : 1));
+        n.querySelector('img').style.transform = `scale(${1.08 - .06 * clamp(l / (step + .4))})`;
+        const tp = ease((l - .2) / .5);
+        n.querySelector('.tag').style.opacity = tp; n.querySelector('.tag').style.transform = `translateY(${24 * (1 - tp)}px)`;
+      });
+    }
+    if (id === 's6') el.querySelectorAll('.sw div').forEach((n, i) => {
+      const p = ease((local - .9 - i * .25) / .6);
+      n.style.opacity = p; n.style.transform = `scale(${.6 + .4 * p})`;
+    });
+  }
+}
+window.render = render; window.DURATION = DURATION;
+render(0);
+</script>
+</body>
+</html>

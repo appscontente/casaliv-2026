@@ -1,0 +1,402 @@
+{
+  "config": {
+    "slug": "casalivfernandamachado",
+    "ordem": 2,
+    "codigoPrefixo": "LE",
+    "ambiente": "Living Entre Amigos",
+    "subtitulo": "Um living assinado por",
+    "tema": {
+      "--freijo": "#3d4434",
+      "--mostarda": "#b0573a",
+      "--couro": "#8a6845"
+    },
+    "destaques": [
+      "A partir de 14 de outubro de 2026",
+      "Living 25 m²",
+      "Móveis planejados Bartzen",
+      "Curadoria Casa Contente"
+    ],
+    "imagemCapa": "living/living-render-1.jpg",
+    "planta": "living/living-layout.jpg",
+    "resumo": "Um living para receber, compartilhar e permanecer — onde a arquitetura acolhe e aproxima.",
+    "conceito": {
+      "frase": "Mais do que um living, um lugar para estar junto.",
+      "texto": [
+        "Pensado para receber, compartilhar e permanecer, o Living Entre Amigos celebra os encontros que acontecem sem pressa — entre conversas que se estendem, brindes espontâneos e momentos que transformam o cotidiano em memória.",
+        "O espaço foi pensado para favorecer encontros genuínos, onde a arquitetura acolhe e aproxima."
+      ]
+    },
+    "borogodo": {
+      "eyebrow": "O convite",
+      "titulo": "Desacelerar e <b>estar junto</b>",
+      "frase": "Em um mundo cada vez mais acelerado e conectado por telas, um convite para valorizar aquilo que realmente importa: a presença.",
+      "texto": [
+        "A materialidade acolhedora, a luz como elemento de atmosfera e o desenho integrado do espaço foram concebidos para estimular a convivência e criar um cenário elegante e convidativo para os momentos que acontecem entre um brinde, uma história e uma boa companhia."
+      ]
+    },
+    "galeria": [
+      "living/living-render-2.jpg",
+      "living/living-render-3.jpg",
+      "living/living-render-4.jpg",
+      "living/living-bar-2.jpg",
+      "living/living-render-6.jpg",
+      "living/living-bar-1.jpg"
+    ],
+    "galeriaTitulo": "Um lugar para <b>estar junto</b>",
+    "paletaTitulo": "Materiais que <b>acolhem</b>",
+    "paletaTexto": "Madeira, texturas macias e tons da terra e da mata compõem uma atmosfera quente e convidativa.",
+    "paleta": [
+      {
+        "nome": "Madeira Itapuã",
+        "uso": "Estante, painéis e pórtico Bartzen",
+        "cor": "#8a6845"
+      },
+      {
+        "nome": "Bouclé off-white",
+        "uso": "Sofá e poltrona",
+        "cor": "#e8e1d4"
+      },
+      {
+        "nome": "Terracota",
+        "uso": "Cadeiras",
+        "cor": "#a4472f"
+      },
+      {
+        "nome": "Verde mármore",
+        "uso": "Bar e nichos da estante",
+        "cor": "#5f8a6c"
+      },
+      {
+        "nome": "Sálvia",
+        "uso": "Tapete orgânico",
+        "cor": "#b8bf9c"
+      }
+    ],
+    "profissional": {
+      "nome": "Fernanda Machado",
+      "escritorio": "Fernanda Machado Arquitetura",
+      "cargo": "Arquitetura de interiores",
+      "logo": "living/logo-fernanda-escuro.png",
+      "instagram": "",
+      "frase": "",
+      "bio": [
+        "Fernanda Machado assina o Living Entre Amigos, um ambiente que traduz o olhar do escritório para espaços pensados para receber: materialidade acolhedora, luz como atmosfera e desenho integrado a serviço da convivência."
+      ],
+      "fotos": [
+        {
+          "src": "living/fernanda-1.jpg",
+          "pos": "55% 50%"
+        },
+        {
+          "src": "living/fernanda-2.jpg",
+          "pos": "50% 22%"
+        },
+        {
+          "src": "living/fernanda-3.jpg",
+          "pos": "60% 45%"
+        }
+      ]
+    },
+    "recorteCapa": "living/fernanda-recorte.webp"
+  },
+  "produtos": [
+    {
+      "slug": "estante-itapua-iluminada",
+      "nome": "Estante em Itapuã com nichos iluminados",
+      "grupo": "Planejados Bartzen",
+      "fabricante": "Bartzen Ambientes Planejados",
+      "descricao": [
+        "Uma estante de parede inteira com nichos de alturas e larguras alternadas, que cria um ritmo descontraído para livros, objetos e obras de arte.",
+        "A iluminação embutida nas prateleiras valoriza cada peça e transforma a estante no pano de fundo do living."
+      ],
+      "ondeEsta": "na parede de fundo, atrás do sofá e da mesa.",
+      "detalhes": {
+        "Acabamento": "Tampos e estrutura em Itapuã",
+        "Dimensões": "3,63 m de largura × 2,38 m de altura",
+        "Composição": "Nichos assimétricos sob medida",
+        "Iluminação": "LED embutido nas prateleiras"
+      },
+      "imagens": [
+        {
+          "src": "living/estante-itapua-amb.jpg",
+          "legenda": "No Living Entre Amigos"
+        },
+        {
+          "src": "living/living-render-2.jpg",
+          "legenda": "Vista do living"
+        }
+      ],
+      "cta": "Quero um projeto assim",
+      "codigo": "LE-01"
+    },
+    {
+      "slug": "paineis-itapua",
+      "nome": "Painéis de parede em Itapuã",
+      "grupo": "Planejados Bartzen",
+      "fabricante": "Bartzen Ambientes Planejados",
+      "descricao": [
+        "Painéis amadeirados em Itapuã revestem as paredes do living e aquecem o ambiente, servindo de fundo para a composição de quadros e para a poltrona.",
+        "Uma porta integrada ao painel mantém a continuidade da madeira e esconde a passagem."
+      ],
+      "ondeEsta": "na parede lateral, atrás da poltrona e da composição de quadros.",
+      "detalhes": {
+        "Acabamento": "Itapuã",
+        "Altura": "2,38 m",
+        "Composição": "3 painéis de 1,16 m + porta integrada"
+      },
+      "imagens": [
+        {
+          "src": "living/paineis-itapua-amb.jpg",
+          "legenda": "No Living Entre Amigos"
+        },
+        {
+          "src": "living/living-render-3.jpg",
+          "legenda": "Vista do living"
+        }
+      ],
+      "cta": "Quero um projeto assim",
+      "codigo": "LE-02"
+    },
+    {
+      "slug": "portico-arco-itapua",
+      "nome": "Pórtico em arco revestido em Itapuã",
+      "grupo": "Planejados Bartzen",
+      "fabricante": "Bartzen Ambientes Planejados",
+      "descricao": [
+        "Um grande arco em madeira marca a entrada do living e emoldura toda a cena, como um convite para entrar.",
+        "Os tampos curvos em Itapuã acompanham o desenho do arco e dão continuidade ao revestimento das paredes."
+      ],
+      "ondeEsta": "na entrada do ambiente, emoldurando o living.",
+      "detalhes": {
+        "Acabamento": "Itapuã, com tampos curvos",
+        "Vão": "Cerca de 4,5 m de largura × 2,39 m de altura"
+      },
+      "imagens": [
+        {
+          "src": "living/living-render-1.jpg",
+          "legenda": "No Living Entre Amigos"
+        },
+        {
+          "src": "living/portico-arco-amb.jpg",
+          "legenda": "Detalhe do arco"
+        }
+      ],
+      "cta": "Quero um projeto assim",
+      "codigo": "LE-03"
+    },
+    {
+      "slug": "sofa-fiorde",
+      "nome": "Sofá Fiorde",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "Uultis",
+      "designer": "Tiago Curioni",
+      "descricao": [
+        "Sofá de linhas orgânicas e contínuas, com volumes arredondados que lembram rochas esculpidas pela água e encosto solto em forma de almofadão.",
+        "Uma peça de presença escultural, que privilegia o acolhimento e a fluidez — o centro dos encontros no living."
+      ],
+      "ondeEsta": "no centro do living, de frente para a estante.",
+      "detalhes": {
+        "Coleção": "Simbiose 2026",
+        "Referência": "MH 9654 · assento 2,50 m, lado esquerdo",
+        "Dimensões (L × P × A)": "250 × 143 × 85 cm",
+        "Altura do assento": "46,5 cm",
+        "Estrutura": "Madeira maciça selecionada",
+        "Estofamento": "Espumas de alta densidade"
+      },
+      "imagens": [
+        {
+          "src": "living/sofa-fiorde-amb.jpg",
+          "legenda": "No Living Entre Amigos"
+        },
+        {
+          "src": "living/sofa-fiorde-1.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/sofa-fiorde-2.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/sofa-fiorde-3.jpg",
+          "legenda": "Outro revestimento",
+          "contain": true
+        },
+        {
+          "src": "living/sofa-fiorde-medidas.jpg",
+          "legenda": "Medidas",
+          "contain": true
+        }
+      ],
+      "codigo": "LE-04"
+    },
+    {
+      "slug": "poltrona-mare",
+      "nome": "Poltrona Maré",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "Uultis",
+      "designer": "Sérgio Batista",
+      "descricao": [
+        "Poltrona escultural de formas envolventes: o encosto se dobra sobre os braços como uma onda que encontra a areia.",
+        "Totalmente estofada, apoia-se em uma discreta base de madeira que dá estabilidade e um contraponto natural ao volume macio."
+      ],
+      "ondeEsta": "junto à parede de quadros, ao lado da mesa de apoio Zenith.",
+      "detalhes": {
+        "Referência": "MH 9845",
+        "Dimensões (L × P × A)": "92 × 73 × 73 cm",
+        "Altura do assento": "45 cm",
+        "Estrutura": "Madeira maciça, base de madeira aparente",
+        "Tecido": "2828 C"
+      },
+      "imagens": [
+        {
+          "src": "living/poltrona-mare-amb.jpg",
+          "legenda": "No Living Entre Amigos"
+        },
+        {
+          "src": "living/poltrona-mare-1.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/poltrona-mare-2.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/poltrona-mare-3.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/poltrona-mare-medidas.jpg",
+          "legenda": "Medidas",
+          "contain": true
+        }
+      ],
+      "codigo": "LE-05"
+    },
+    {
+      "slug": "cadeira-catamara",
+      "nome": "Cadeira Catamarã",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "Uultis",
+      "designer": "Tiago Curioni",
+      "descricao": [
+        "Cadeira de jantar apoiada em dois blocos de madeira maciça, entre os quais se encaixam o assento estofado e o encosto de contorno facetado.",
+        "De inspiração modernista, deixa à mostra a construção e a madeira — no Living, é o toque terracota em volta da mesa."
+      ],
+      "ondeEsta": "duas unidades, ao redor da mesa redonda do living.",
+      "detalhes": {
+        "Coleção": "Simbiose 2026",
+        "Referência": "MH 9468",
+        "Dimensões (L × P × A)": "57 × 59,5 × 85 cm",
+        "Altura do assento": "47 cm",
+        "Estrutura": "Laterais em madeira maciça",
+        "Tecido": "2771 A3",
+        "Quantidade no ambiente": "2 unidades"
+      },
+      "imagens": [
+        {
+          "src": "living/cadeira-catamara-amb.jpg",
+          "legenda": "No Living Entre Amigos"
+        },
+        {
+          "src": "living/cadeira-catamara-1.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/cadeira-catamara-2.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/cadeira-catamara-3.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/cadeira-catamara-medidas.jpg",
+          "legenda": "Medidas",
+          "contain": true
+        }
+      ],
+      "codigo": "LE-06"
+    },
+    {
+      "slug": "mesa-apoio-zenith",
+      "nome": "Mesa de apoio Zenith",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "Uultis",
+      "designer": "Estúdio Uultis",
+      "descricao": [
+        "O tampo redondo parece flutuar sobre uma haste metálica inclinada, presa a uma base em meia-esfera de madeira maciça.",
+        "Um jogo de equilíbrio entre leveza e peso que cria uma peça pequena de forte caráter gráfico."
+      ],
+      "ondeEsta": "ao lado da poltrona Maré.",
+      "detalhes": {
+        "Coleção": "Simbiose 2026",
+        "Referência": "MH 9139",
+        "Dimensões": "Ø 40 cm × 47,5 cm de altura",
+        "Tampo": "Vidro",
+        "Base": "Madeira maciça · Teca / Maple natural"
+      },
+      "imagens": [
+        {
+          "src": "living/mesa-zenith-amb.jpg",
+          "legenda": "No Living Entre Amigos"
+        },
+        {
+          "src": "living/mesa-zenith-1.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/mesa-zenith-2.jpg",
+          "contain": true
+        },
+        {
+          "src": "living/mesa-zenith-3.jpg",
+          "legenda": "Outro tampo",
+          "contain": true
+        },
+        {
+          "src": "living/mesa-zenith-medidas.jpg",
+          "legenda": "Medidas",
+          "contain": true
+        }
+      ],
+      "codigo": "LE-07"
+    },
+    {
+      "slug": "tapete-via-star-loop",
+      "nome": "Tapete Via Star Loop",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "Via Star",
+      "descricao": [
+        "Tapete de toque macio, com pelo em laçadas (loop) e tom neutro que se adapta a qualquer estilo.",
+        "Produzido sob medida, pode ser cortado em formatos orgânicos — no Living, ele desenha o espaço de convivência sob o sofá e a mesa."
+      ],
+      "ondeEsta": "sob o sofá, a mesa e as cadeiras.",
+      "detalhes": {
+        "Cor": "Bege",
+        "Dimensões": "3,40 × 3,50 m (sob medida)",
+        "Composição": "100% polipropileno",
+        "Altura do pelo": "17 mm",
+        "Acabamento": "Borda virada ou overloque"
+      },
+      "imagens": [
+        {
+          "src": "living/tapete-via-star-amb.jpg",
+          "legenda": "No Living Entre Amigos"
+        },
+        {
+          "src": "living/tapete-via-star-loop-1.jpg"
+        },
+        {
+          "src": "living/tapete-via-star-loop-2.jpg"
+        },
+        {
+          "src": "living/tapete-via-star-loop-3.jpg"
+        },
+        {
+          "src": "living/tapete-via-star-loop-4.jpg"
+        }
+      ],
+      "codigo": "LE-08"
+    }
+  ]
+}

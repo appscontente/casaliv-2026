@@ -1,0 +1,51 @@
+{
+  "baseUrl": "https://www.casacontente.com.br",
+  "whatsapp": "5591999999999",
+  "evento": "Casa Liv 2026",
+  "local": "Belém – PA",
+  "abertura": "14 de outubro de 2026",
+  "logo": "logo-cc-bartzen.png",
+  "logoBranco": "logo-cc-bartzen-branco.png",
+  "grupos": [
+    "Planejados Bartzen",
+    "Mobiliário & decoração",
+    "Eletros"
+  ],
+  "marcas": {
+    "bartzen": {
+      "titulo": "Bartzen",
+      "historia": [
+        "A Bartzen nasceu em 1994 em Bom Princípio, na Serra Gaúcha, fundada por Afonso Bartzen. Em três décadas, tornou-se referência em móveis planejados sob medida para cozinhas, dormitórios, closets, livings e banheiros — com a liberdade de ajustar altura, largura e profundidade de cada módulo ao espaço e ao jeito de viver de quem mora nele.",
+        "Desde 2022, faz parte do Grupo K1, sediado em Tupandi (RS) e um dos maiores grupos moveleiros da América Latina. A fábrica produz a própria laca, com tinta italiana, além de portas de alumínio, metalon e vidros, com acabamento de alto padrão em cada projeto."
+      ],
+      "fatos": [
+        "Fundada em 1994, em Bom Princípio (RS)",
+        "Parte do Grupo K1 desde 2022",
+        "Modulação 100% editável, em MDP e MDF",
+        "Laca própria, portas de alumínio, metalon e vidraçaria de fabricação própria",
+        "Rede de lojas exclusivas em 14 estados — em Belém, com a Casa Contente"
+      ]
+    },
+    "casacontente": {
+      "titulo": "Casa Contente",
+      "texto": [
+        "A história começa na década de 80, em Abaetetuba (PA), com a Ultralar — fundada pelo Sr. Raimundo Ailton Ferreira Dias com o apoio do filho, Armando Contente Dias. Com o lema “Tudo para o Lar”, tornou-se referência no varejo do Baixo Tocantins.",
+        "Em 2013, a família levou esse jeito de receber a Belém e inaugurou a Casa Contente: uma loja que vai além da venda de produtos, criada para acolher, inspirar e fazer as pessoas se sentirem verdadeiramente contentes.",
+        "Do popular ao alto padrão, o Grupo Contente reúne móveis, eletros, decoração, utensílios e, desde agosto de 2025, os móveis planejados Bartzen — com a franquia instalada na loja da Doca."
+      ],
+      "fatos": [
+        "Grupo 100% paraense, com mais de 35 anos de história",
+        "Lojas nos bairros Telégrafo, Batista Campos, Pedreira e Umarizal",
+        "Atendimento em Belém, Ananindeua, Marituba e Benevides",
+        "Mais de 240 colaboradores no Grupo Contente",
+        "Franquia Bartzen na loja da Doca desde agosto de 2025",
+        "O jeito paraense de receber: atendimento caloroso, gentil e próximo"
+      ]
+    }
+  },
+  "logoTopo": "logo-contente-mais.svg",
+  "logoCasaLiv": "logo-casaliv.png",
+  "whatsappBartzen": "5591999999999",
+  "whatsappCasaContente": "5591999999999",
+  "bartzenProjetoUrl": "https://bartzen.casacontente.com.br/"
+}

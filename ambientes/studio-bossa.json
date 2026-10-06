@@ -1,0 +1,493 @@
+{
+  "config": {
+    "ambiente": "Studio Bossa",
+    "subtitulo": "Um loft assinado por Studio TM",
+    "destaques": [
+      "A partir de 14 de outubro de 2026",
+      "Loft 20,70 m² + cozinha 4,78 m²",
+      "Móveis planejados Bartzen",
+      "Curadoria Casa Contente"
+    ],
+    "imagemCapa": "ambiente-estar.jpg",
+    "planta": "planta-humanizada.png",
+    "conceito": {
+      "frase": "Bossa é jeito. É a forma brasileira e paraense de habitar com leveza e presença.",
+      "texto": [
+        "O Studio Bossa nasce como um loft integrado, pensado para o morador contemporâneo que trabalha, recebe, descansa e se arruma no mesmo espaço.",
+        "Sala de estar e jantar, home office, closet e cozinha se integram em um único ambiente fluido, com funções e fluxos definidos por planos, luz e materialidade."
+      ]
+    },
+    "borogodo": {
+      "frase": "Borogodó é o que não se explica, mas se sente.",
+      "texto": [
+        "É a textura do couro sob a mão, o cheiro de móvel planejado recém-instalado, a luz que muda de intensidade, o amarelo que aquece um ambiente sóbrio.",
+        "O Studio Bossa carrega esse tempero brasileiro — a alma do ato de morar traduzida em arquitetura contemporânea, sem perder a informalidade elegante que é a marca registrada do jeito paraense de receber."
+      ],
+      "eyebrow": "A camada sensorial",
+      "titulo": "O <b>Borogodó</b>"
+    },
+    "programa": [
+      {
+        "titulo": "Estar, jantar & home office",
+        "imagem": "ambiente-estar.jpg",
+        "texto": "Sofá em couro, poltronas em tom mostarda, adornos e obra autoral compõem o primeiro acolhimento. O painel decorativo e a mesa orgânica no centro do loft servem para reunir, trabalhar, jantar e conversar."
+      },
+      {
+        "titulo": "Closet",
+        "imagem": "ambiente-closet.jpg",
+        "texto": "Portas em vidro acidato e estrutura em freijó: a peça ilustre do cenário, que organiza sem fechar o ambiente."
+      },
+      {
+        "titulo": "Cozinha",
+        "imagem": "ambiente-cozinha.jpg",
+        "texto": "Móvel planejado, marmoraria canelada e módulo aéreo amarelo: funcionalidade com atitude."
+      }
+    ],
+    "paletaTexto": "Texturas e cores como assinatura cromática, com referência no design brasileiro.",
+    "paleta": [
+      {
+        "nome": "Freijó e Absoluto",
+        "uso": "Móveis planejados",
+        "cor": "#3b2a1d"
+      },
+      {
+        "nome": "Couro natural",
+        "uso": "Sofá-cama",
+        "cor": "#895a3a"
+      },
+      {
+        "nome": "Mármore Bege Bahia",
+        "uso": "Painel, tampo, frontão e bancada",
+        "cor": "#d9c6a6"
+      },
+      {
+        "nome": "Amarelo mostarda",
+        "uso": "Cadeiras e aéreo da cozinha",
+        "cor": "#c89a3a"
+      },
+      {
+        "nome": "Terracota",
+        "uso": "Tapete e objetos",
+        "cor": "#a9563b"
+      }
+    ],
+    "iluminacao": [
+      {
+        "titulo": "Luz como eixo",
+        "texto": "A gota do teto organiza a circulação e valoriza os móveis soltos e planejados. Na cozinha, o forro em tela tensionada permite projeção e foco."
+      },
+      {
+        "titulo": "Prateleiras técnicas",
+        "texto": "Estrutura suspensa em metal, leve e aparente: funcionalidade com desenho autoral."
+      },
+      {
+        "titulo": "Portas de vidro acidato",
+        "texto": "Perfis com LED que discretizam o closet sem fechá-lo visualmente."
+      },
+      {
+        "titulo": "Cenas de luz",
+        "texto": "Cenários programados para cada função do loft: trabalho, recepção e descanso."
+      },
+      {
+        "titulo": "Decorativos",
+        "texto": "Arandelas e abajur como focos pontuais, criando cenas."
+      }
+    ],
+    "profissional": {
+      "nome": "Tatiane Madeiro",
+      "escritorio": "Studio TM",
+      "cargo": "Arquitetura · Engenharia · Design",
+      "instagram": "tatianemadeiro_arqeng",
+      "frase": "Projeto, técnica e borogodó em cada detalhe.",
+      "bio": [
+        "À frente do Studio TM, Tatiane Madeiro une arquitetura, engenharia e design em projetos autorais do início ao fim.",
+        "No Studio Bossa, traduz a essência do escritório — técnica, sensibilidade e identidade aplicadas ao dia a dia de quem quer viver bem — em um espaço atemporal para o morador contemporâneo."
+      ],
+      "fotos": [
+        {
+          "src": "tatiane-1.jpg",
+          "pos": "50% 30%"
+        },
+        {
+          "src": "tatiane-2.jpg",
+          "pos": "50% 38%"
+        },
+        {
+          "src": "tatiane-3.jpg",
+          "pos": "40% 28%"
+        }
+      ]
+    },
+    "recorteCapa": "tatiane-recorte.webp",
+    "slug": "casalivtatimadeiro",
+    "codigoPrefixo": "SB",
+    "tema": {
+      "--freijo": "#3b2a1d",
+      "--mostarda": "#c89a3a",
+      "--couro": "#895a3a"
+    },
+    "programaTitulo": "Um loft, <b>múltiplos gestos</b>",
+    "paletaTitulo": "Uma paleta que nasce do <b>Borogodó</b>",
+    "iluminacaoTitulo": "Luz que guia, <b>tecnologia que serve</b>",
+    "resumo": "Um loft integrado em freijó, luz e mostarda, para quem trabalha, recebe, descansa e se arruma no mesmo espaço.",
+    "ordem": 1
+  },
+  "produtos": [
+    {
+      "slug": "closet-freijo-vidro-acidato",
+      "codigo": "SB-01",
+      "nome": "Closet em Freijó com portas de vidro acidato",
+      "grupo": "Planejados Bartzen",
+      "fabricante": "Bartzen Ambientes Planejados",
+      "descricao": [
+        "A peça ilustre do Studio Bossa: um closet planejado sob medida em Louro Freijó, com portas de alumínio e vidro acidato que deixam entrever a iluminação interna sem expor o que está guardado.",
+        "Módulo de canto em L, gavetas internas e perfis com LED transformam o armário em parte da arquitetura do loft."
+      ],
+      "ondeEsta": "à direita de quem entra, contornando o canto do loft até a estante curva.",
+      "detalhes": {
+        "Linha": "Dormitório Sob Medida",
+        "Caixas e painéis": "MDP Louro Freijó Trend",
+        "Portas": "Alumínio Bartzen · perfil Taupe · vidro acidato",
+        "Módulos": "Roupeiro com módulo de canto em L",
+        "Gavetas": "Internas, com corrediça invisível",
+        "Iluminação": "LED nos perfis e prateleiras"
+      },
+      "imagens": [
+        {
+          "src": "closet-bartzen-amb.jpg",
+          "legenda": "No Studio Bossa"
+        },
+        {
+          "src": "ambiente-closet.jpg",
+          "legenda": "Vista do loft"
+        }
+      ],
+      "cta": "Quero um projeto assim"
+    },
+    {
+      "slug": "estante-curva-iluminada",
+      "codigo": "SB-02",
+      "nome": "Estante de canto curvo iluminada",
+      "grupo": "Planejados Bartzen",
+      "fabricante": "Bartzen Ambientes Planejados",
+      "descricao": [
+        "Uma estante que arremata o closet com uma curva suave em Louro Freijó. Prateleiras iluminadas por LED valorizam objetos, livros e plantas, e fazem a transição entre o armário e a circulação."
+      ],
+      "ondeEsta": "no fim do closet, arredondando a quina do loft.",
+      "detalhes": {
+        "Material": "MDP Louro Freijó Trend",
+        "Módulo": "Canto curvo (218 × 1283 × 310 mm) + balcão com prateleiras",
+        "Iluminação": "LED embutido nas prateleiras"
+      },
+      "imagens": [
+        {
+          "src": "estante-curva-amb.jpg",
+          "legenda": "No Studio Bossa"
+        },
+        {
+          "src": "ambiente-closet.jpg",
+          "legenda": "Vista do loft"
+        }
+      ],
+      "cta": "Quero um projeto assim"
+    },
+    {
+      "slug": "paineis-freijo-painel-curvo",
+      "codigo": "SB-03",
+      "nome": "Painéis em Freijó e painel curvo",
+      "grupo": "Planejados Bartzen",
+      "fabricante": "Bartzen Ambientes Planejados",
+      "descricao": [
+        "Os painéis em Louro Freijó envolvem o loft e acompanham a curva da parede do estar, criando um fundo contínuo e acolhedor para o sofá e a obra de arte.",
+        "Na área de jantar e home office, os painéis emolduram o nicho iluminado com prateleiras metálicas suspensas."
+      ],
+      "ondeEsta": "nas paredes do estar e em volta do nicho iluminado do jantar.",
+      "detalhes": {
+        "Material": "MDP Louro Freijó Trend",
+        "Painel curvo": "Acompanha o raio da parede do estar",
+        "Nicho": "Moldura em freijó com fita de LED e prateleiras metálicas"
+      },
+      "imagens": [
+        {
+          "src": "painel-freijo-amb.jpg",
+          "legenda": "Painel curvo no estar"
+        },
+        {
+          "src": "nicho-iluminado-amb.jpg",
+          "legenda": "Nicho iluminado"
+        },
+        {
+          "src": "nicho-closet-amb.jpg",
+          "legenda": "Painéis e nicho no loft"
+        }
+      ],
+      "cta": "Quero um projeto assim"
+    },
+    {
+      "slug": "cozinha-planejada",
+      "codigo": "SB-04",
+      "nome": "Cozinha planejada com aéreo Ocre Solar",
+      "grupo": "Planejados Bartzen",
+      "fabricante": "Bartzen Ambientes Planejados",
+      "descricao": [
+        "Uma cozinha linear e compacta, com balcões e aéreos em tom escuro amadeirado e uma faixa de módulos basculantes em Ocre Solar, o amarelo que aquece o ambiente.",
+        "Os módulos acomodam eletros embutidos e o cooktop por indução com coifa integrada, com gaveteiro e lixeira embutida."
+      ],
+      "ondeEsta": "no fundo do loft, junto à janela.",
+      "detalhes": {
+        "Balcões e aéreos": "Preto Trama",
+        "Módulo aéreo": "Portas basculantes Ocre Solar",
+        "Bancada": "Mármore Bege Bahia (marmoraria)",
+        "Área": "4,78 m²"
+      },
+      "imagens": [
+        {
+          "src": "cozinha-bartzen-amb.jpg",
+          "legenda": "No Studio Bossa"
+        },
+        {
+          "src": "ambiente-cozinha.jpg",
+          "legenda": "Vista frontal"
+        }
+      ],
+      "cta": "Quero um projeto assim"
+    },
+    {
+      "slug": "sofa-cama-casulo",
+      "codigo": "SB-05",
+      "nome": "Sofá-cama Casulo",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "Salva",
+      "descricao": [
+        "O refúgio que se transforma, como o nome sugere: um sofá de design moderno e elegante que esconde uma cama de casal, revelada por um mecanismo simples.",
+        "Os braços envolventes com detalhe em metal emolduram o assento capitonê. No Studio Bossa, é o primeiro acolhimento do loft — e a solução para receber quem fica para dormir."
+      ],
+      "ondeEsta": "no estar, junto ao painel curvo em freijó e à obra de arte.",
+      "detalhes": {
+        "Coleção": "Salva 2025",
+        "Dimensões (L × P × A)": "184 × 106 × 77 cm",
+        "Altura do assento": "48 cm",
+        "Aberto": "210 cm de profundidade",
+        "Colchão": "140 × 190 cm (casal)",
+        "Assento": "Espuma, fixo, com molas (strap)",
+        "Encosto": "Fibra, fixo, com percintas",
+        "Braços e pés": "Metal, cores conforme cartela"
+      },
+      "imagens": [
+        {
+          "src": "sofa-casulo-amb.jpg",
+          "legenda": "No Studio Bossa"
+        },
+        {
+          "src": "sofa-casulo-1.jpg",
+          "contain": true
+        },
+        {
+          "src": "sofa-casulo-2.jpg"
+        },
+        {
+          "src": "sofa-casulo-3.jpg",
+          "contain": true,
+          "legenda": "Aberto como cama"
+        },
+        {
+          "src": "sofa-casulo-4.jpg",
+          "legenda": "Detalhe do braço"
+        },
+        {
+          "src": "sofa-casulo-ficha.jpg",
+          "contain": true,
+          "legenda": "Medidas"
+        }
+      ]
+    },
+    {
+      "slug": "poltrona-wooden-ball",
+      "codigo": "SB-06",
+      "nome": "Poltrona Wooden Ball",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "Solis+",
+      "descricao": [
+        "Ícone do design contemporâneo assinado por Sérgio Gomes: uma única lâmina estofada forma encosto e assento em curva contínua, apoiada sobre uma grande esfera de madeira maciça.",
+        "A estrutura em fiberglass garante leveza e resistência. No Studio Bossa, a versão em tecido claro com base em imbuia fosca faz dela a peça escultural do estar."
+      ],
+      "ondeEsta": "no estar, ao lado do abajur e das mesas laterais.",
+      "detalhes": {
+        "Design": "Sérgio Gomes",
+        "Estrutura": "Fiberglass",
+        "Base": "Esfera em madeira maciça · imbuia fosco",
+        "Revestimento": "100% tecido · código 3715"
+      },
+      "imagens": [
+        {
+          "src": "poltrona-wooden-ball-amb.jpg",
+          "legenda": "No Studio Bossa"
+        },
+        {
+          "src": "poltrona-wooden-ball-ref.png",
+          "legenda": "Versão em tecido"
+        },
+        {
+          "src": "poltrona-wooden-ball-1.jpg",
+          "legenda": "Versão em couro natural · Solis+"
+        },
+        {
+          "src": "poltrona-wooden-ball-2.jpg",
+          "legenda": "Versão em couro natural · Solis+"
+        }
+      ],
+      "designer": "Sérgio Gomes"
+    },
+    {
+      "slug": "mesa-lateral-cavo",
+      "codigo": "SB-07",
+      "nome": "Mesas laterais Cavo (alta + baixa)",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "Msul",
+      "descricao": [
+        "Par de mesas laterais de linhas minimalistas, com base cilíndrica escavada em curva — uma cavidade que lembra formas naturais e dá leveza à peça.",
+        "Em madeira maciça, com tampos de formatos e alturas diferentes, as duas mesas se encaixam uma na outra e compõem ao lado de sofás e poltronas."
+      ],
+      "ondeEsta": "no estar, junto à poltrona Wooden Ball.",
+      "detalhes": {
+        "Design": "Eduardo Trevisan",
+        "Mesa alta · ref. 378A": "L 37 × P 37 × A 55 cm",
+        "Mesa baixa · ref. 378B": "L 44 × P 30 × A 48 cm",
+        "Material": "Madeira maciça",
+        "Acabamento": "Imbuia"
+      },
+      "imagens": [
+        {
+          "src": "mesa-lateral-cavo-amb.jpg",
+          "legenda": "No Studio Bossa"
+        },
+        {
+          "src": "mesa-lateral-cavo-1.jpg",
+          "contain": true
+        },
+        {
+          "src": "mesa-lateral-cavo-2.jpg"
+        },
+        {
+          "src": "mesa-lateral-cavo-3.jpg"
+        }
+      ],
+      "designer": "Eduardo Trevisan"
+    },
+    {
+      "slug": "cadeira-evora",
+      "codigo": "SB-08",
+      "nome": "Cadeira Évora",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "Delinear",
+      "descricao": [
+        "Da Coleção Refúgio da Delinear: cadeira com braços, encosto curvo que abraça o corpo e assento estofado sobre estrutura em madeira com lâminas de nogueira fosca.",
+        "No Studio Bossa, o estofado em amarelo mostarda com aro champagne é o toque que aquece a mesa orgânica de jantar e home office."
+      ],
+      "ondeEsta": "duas unidades, na mesa orgânica de jantar e home office.",
+      "detalhes": {
+        "Coleção": "Refúgio",
+        "Madeira": "Lâminas de nogueira fosco",
+        "Aro": "Champagne",
+        "Tecido": "Único FX DD 90 (mostarda)",
+        "Quantidade no ambiente": "2 unidades"
+      },
+      "imagens": [
+        {
+          "src": "cadeira-evora-amb.jpg",
+          "legenda": "No Studio Bossa"
+        },
+        {
+          "src": "cadeira-evora-ref.png",
+          "legenda": "Versão do ambiente"
+        },
+        {
+          "src": "cadeira-evora-delinear.jpg",
+          "contain": true,
+          "legenda": "Évora · outro tecido"
+        }
+      ]
+    },
+    {
+      "slug": "tapete-origem-organico",
+      "codigo": "SB-09",
+      "nome": "Tapete Origem 4 Orgânico",
+      "grupo": "Mobiliário & decoração",
+      "fabricante": "São Carlos",
+      "descricao": [
+        "Da Coleção Origem, assinada por Pedro Franco e apresentada no Salone del Mobile de Milão: uma coleção inspirada na terra, nos minerais e no ciclo da vida, em tons que vão do bege ao terracota.",
+        "Na versão Orgânico 04/15, o tapete ganha contorno de grão e manchas aquareladas — quase uma obra de arte no chão, e o ponto de terracota da paleta do Studio Bossa."
+      ],
+      "ondeEsta": "no centro do loft, sob o estar.",
+      "detalhes": {
+        "Coleção": "Origem · Design Signature, Pedro Franco",
+        "Modelo": "Origem 4 · Orgânico 04/15",
+        "Referência": "01.07.E41504",
+        "Dimensões": "2,50 × 3,50 m",
+        "Espessura": "8 mm",
+        "Superfície": "Veludo",
+        "Acabamento": "Micro debrum com barra dobrada"
+      },
+      "imagens": [
+        {
+          "src": "tapete-origem-feijao-amb.jpg",
+          "legenda": "No Studio Bossa"
+        },
+        {
+          "src": "tapete-origem-organico-1.jpg",
+          "contain": true,
+          "legenda": "Origem 4 · Orgânico 04/15"
+        },
+        {
+          "src": "tapete-origem-colecao-amb.jpg",
+          "legenda": "Coleção Origem"
+        }
+      ],
+      "designer": "Pedro Franco"
+    },
+    {
+      "slug": "cooktop-tramontina-duo-80",
+      "codigo": "SB-10",
+      "nome": "Cooktop por indução Tramontina Duo 4EI 80 com coifa integrada",
+      "grupo": "Eletros",
+      "fabricante": "Tramontina",
+      "descricao": [
+        "Cooktop e coifa em uma só peça: a exaustão fica no centro da mesa vitrocerâmica e capta os vapores direto na panela, liberando o aéreo da cozinha.",
+        "Quatro áreas de indução com booster e função bridge, que une duas zonas em uma superfície só. A coifa ajusta a velocidade sozinha conforme a potência usada no cooktop."
+      ],
+      "ondeEsta": "na bancada de mármore da cozinha.",
+      "detalhes": {
+        "Linha": "Design Collection",
+        "Dimensões (A × L × C)": "28,5 × 52 × 77 cm",
+        "Cooktop": "4 áreas + booster e função bridge · 7,2 kW",
+        "Funções": "Manter aquecido, pause e bloqueio do painel",
+        "Coifa": "Modo exaustão · 600 m³/h · 5 velocidades + booster · modo automático",
+        "Ruído": "63 dB(A)",
+        "Instalação": "Flush ou semi-flush",
+        "Tensão": "220 V"
+      },
+      "imagens": [
+        {
+          "src": "cooktop-duo-80-PDM001G.jpg",
+          "contain": true
+        },
+        {
+          "src": "cooktop-duo-80-PRM001G.jpg",
+          "contain": false
+        },
+        {
+          "src": "cooktop-duo-80-PRM002G.jpg",
+          "contain": false
+        },
+        {
+          "src": "cooktop-duo-80-PRM003G.jpg",
+          "contain": false
+        },
+        {
+          "src": "cooktop-duo-80-DCM002G.jpg",
+          "contain": true
+        }
+      ]
+    }
+  ]
+}
