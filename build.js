@@ -71,7 +71,7 @@ const chrome = (d, active) => `
     <a href="${up(d)}index.html#arquiteta">A Arquiteta</a>
     <a href="${up(d)}index.html#produtos" class="${active === 'prod' ? 'on' : ''}">Produtos</a>
     <a href="${up(d)}index.html#marcas">Marcas</a>
-    <a href="${waLink(null, 'casacontente')}" target="_blank" rel="noopener">Contato</a>
+    <a href="${waLink(null, 'casacontente')}" target="_blank" rel="noopener" data-vendedores>Contato</a>
   </nav>
 </div></header>`;
 
@@ -102,6 +102,34 @@ const card = (p, d) => {
   </div>
 </a>`;
 };
+
+
+// Vendedores exclusivos Casa Contente: o visitante escolhe com quem falar no WhatsApp.
+// A ordem é sorteada a cada visita para distribuir os contatos; sem JavaScript, o link vai direto para o primeiro.
+const vendedoresUI = () => !C.vendedores?.length ? '' : `
+<dialog class="vend" id="vendedores" aria-labelledby="vend-tit">
+  <form method="dialog"><button class="vend-x" aria-label="Fechar">×</button></form>
+  <span class="eyebrow">Casa Contente · ${esc(C.evento)}</span>
+  <h3 id="vend-tit">Fale com um dos nossos vendedores</h3>
+  <p>Atendimento exclusivo para quem visitou o ${esc(C.ambiente)}.</p>
+  <div class="vend-lista">${C.vendedores.map(v => `<a class="vend-item" data-num="${esc(v.whatsapp)}" href="https://wa.me/${esc(v.whatsapp)}" target="_blank" rel="noopener"><i>${WA_ICON}</i><span><b>${esc(v.nome)}</b><small>WhatsApp</small></span></a>`).join('')}</div>
+</dialog>
+<script>
+(() => {
+  const dlg = document.getElementById('vendedores'); if (!dlg || !dlg.showModal) return;
+  const lista = dlg.querySelector('.vend-lista'), itens = [...lista.children];
+  for (let i = itens.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [itens[i], itens[j]] = [itens[j], itens[i]]; }
+  itens.forEach(n => lista.appendChild(n));
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[data-vendedores]'); if (!a) return;
+    e.preventDefault();
+    const msg = new URL(a.href).searchParams.get('text') || '';
+    itens.forEach(n => n.href = 'https://wa.me/' + n.dataset.num + '?text=' + encodeURIComponent(msg));
+    dlg.showModal();
+  });
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.close(); });
+})();
+</script>`;
 
 // ---------- Página do ambiente ----------
 function pageIndex() {
@@ -217,7 +245,7 @@ ${C.iluminacao?.length ? `<section class="block dark">
         <h3 class="brand-title"><img class="bt-cc" src="${R(0)}imagens/logo-casacontente-branco.svg" alt="${esc(cc.titulo)}"></h3>
         ${arr(cc.texto).map(t => `<p>${esc(t)}</p>`).join('\n        ')}
         ${cc.fatos?.length ? `<ul class="facts">${cc.fatos.map(f => `<li>${esc(f)}</li>`).join('')}</ul>` : ''}
-        <a class="btn brand-cta" href="${waLink(null, 'casacontente')}" target="_blank" rel="noopener">${WA_ICON} Fale com a Casa Contente</a>
+        <a class="btn brand-cta" href="${waLink(null, 'casacontente')}" target="_blank" rel="noopener" data-vendedores>${WA_ICON} Fale com a Casa Contente</a>
       </div>
     </div>
   </div>
@@ -229,6 +257,7 @@ document.querySelectorAll('.filters button').forEach(b => b.addEventListener('cl
   document.querySelectorAll('.grid .card').forEach(c => { c.hidden = b.dataset.f !== '*' && c.dataset.grupo !== b.dataset.f; c.classList.add('in'); });
 }));
 </script>
+${vendedoresUI()}
 ${revealScript}
 </body>
 </html>`;
@@ -261,7 +290,7 @@ ${chrome(d, 'prod')}
       ${p.ondeEsta ? `<div class="context"><b>No ${esc(C.ambiente)}:</b> ${esc(p.ondeEsta)}</div>` : ''}
       ${detalhes.length ? `<table class="specs">${detalhes.map(([k, v]) => `<tr><th>${esc(k)}</th><td>${esc(v)}</td></tr>`).join('')}</table>` : ''}
       <div class="ctas" id="main-cta">
-        <a class="btn primary" href="${ctaHref(p)}" target="_blank" rel="noopener">${ctaIcon(p)} ${esc(isBartzen(p) && C.bartzenProjetoUrl ? 'Solicite seu projeto' : (p.cta || 'Quero este produto'))}</a>
+        <a class="btn primary" href="${ctaHref(p)}" target="_blank" rel="noopener"${isBartzen(p) && C.bartzenProjetoUrl ? '' : ' data-vendedores'}>${ctaIcon(p)} ${esc(isBartzen(p) && C.bartzenProjetoUrl ? 'Solicite seu projeto' : (p.cta || 'Quero este produto'))}</a>
         ${p.link ? `<a class="btn" href="${esc(p.link)}" target="_blank" rel="noopener">${esc(p.linkLabel || `Ver no site ${p.fabricante}`)}</a>` : ''}
       </div>
       <p class="note">Disponível na Casa Contente · Peça do ${esc(C.ambiente)}, assinado por ${esc(PRO.nome)} (${esc(PRO.escritorio)}) para a ${esc(C.evento)}.</p>
@@ -273,7 +302,7 @@ ${outros.length ? `<section class="more"><div class="wrap">
   <h2>Continue <b>explorando</b></h2>
   <div class="grid">${outros.map(o => card(o, d)).join('')}</div>
 </div></section>` : ''}
-<div class="sticky-cta" id="sticky"><a class="btn primary" href="${ctaHref(p)}" target="_blank" rel="noopener">${ctaIcon(p)} ${esc(isBartzen(p) && C.bartzenProjetoUrl ? 'Solicite seu projeto' : (p.cta || 'Quero este produto'))}</a></div>
+<div class="sticky-cta" id="sticky"><a class="btn primary" href="${ctaHref(p)}" target="_blank" rel="noopener"${isBartzen(p) && C.bartzenProjetoUrl ? '' : ' data-vendedores'}>${ctaIcon(p)} ${esc(isBartzen(p) && C.bartzenProjetoUrl ? 'Solicite seu projeto' : (p.cta || 'Quero este produto'))}</a></div>
 ${footer(d)}
 <script>
 (() => {
@@ -289,6 +318,7 @@ ${footer(d)}
   else if (s) s.classList.add('show');
 })();
 </script>
+${vendedoresUI()}
 ${revealScript}
 </body>
 </html>`;

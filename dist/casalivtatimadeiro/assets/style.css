@@ -299,3 +299,18 @@ footer .dev img { height: 20px; width: auto; }
 /* Logo da arquiteta como título da seção "Quem assina" */
 .pro-logo { height: 72px; margin: 14px 0 24px; }
 @media (max-width: 560px) { .pro-logo { height: 54px; } }
+
+/* Janela de escolha do vendedor Casa Contente */
+.vend { border: 0; padding: 34px 30px 28px; width: min(420px, calc(100vw - 32px)); background: #fff; color: var(--muted); box-shadow: 0 30px 80px rgba(0,0,0,.35); }
+.vend::backdrop { background: rgba(20,14,9,.6); backdrop-filter: blur(3px); }
+.vend h3 { font-size: 22px; font-weight: 700; letter-spacing: .5px; margin: 10px 0 6px; }
+.vend p { font-size: 14px; }
+.vend-x { position: absolute; top: 10px; right: 14px; border: 0; background: none; font-size: 28px; line-height: 1; color: var(--ink); cursor: pointer; }
+.vend-lista { display: grid; gap: 10px; margin-top: 20px; }
+.vend-item { display: flex; align-items: center; gap: 14px; padding: 14px 16px; border: 1px solid var(--line); transition: all .2s; }
+.vend-item:hover { border-color: var(--freijo); background: #f6f3ee; }
+.vend-item i { width: 40px; height: 40px; border-radius: 50%; background: #25d366; display: grid; place-items: center; flex: none; }
+.vend-item i svg { width: 22px; height: 22px; fill: #fff; }
+.vend-item b { display: block; color: var(--ink); font-size: 15px; }
+.vend-item small { font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+.vend { margin: auto; }   /* o reset global (* { margin: 0 }) tirava a centralização nativa do <dialog> */

@@ -1,6 +1,6 @@
 {
   "baseUrl": "https://www.casacontente.com.br",
-  "whatsapp": "5591999999999",
+  "whatsapp": "5591992801075",
   "evento": "Casa Liv 2026",
   "local": "Belém – PA",
   "abertura": "14 de outubro de 2026",
@@ -46,6 +46,20 @@
   "logoTopo": "logo-contente-mais.svg",
   "logoCasaLiv": "logo-casaliv.png",
   "whatsappBartzen": "5591999999999",
-  "whatsappCasaContente": "5591999999999",
-  "bartzenProjetoUrl": "https://bartzen.casacontente.com.br/"
+  "whatsappCasaContente": "5591992801075",
+  "bartzenProjetoUrl": "https://bartzen.casacontente.com.br/",
+  "vendedores": [
+    {
+      "nome": "Jéssica Leite",
+      "whatsapp": "5591992801075"
+    },
+    {
+      "nome": "Maycon Aviz",
+      "whatsapp": "5591991436097"
+    },
+    {
+      "nome": "Gustavo Santos",
+      "whatsapp": "5591992176225"
+    }
+  ]
 }

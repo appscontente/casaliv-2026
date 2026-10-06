@@ -41,6 +41,7 @@ node build.js
 
 ⚠️ Os QR codes e a tag NFC usam `baseUrl` (em `site.json`) + `slug`. Confirme o endereço final **antes** de imprimir; depois de impressos, os slugs não podem mudar.
 
-## Pendências
+## Contatos
 
-- Número de WhatsApp da Casa Contente (`whatsappCasaContente` em `site.json`), hoje provisório.
+- **Casa Contente:** os botões de WhatsApp abrem uma janela para o visitante escolher um dos vendedores exclusivos da Casa Liv (lista `vendedores` em `site.json`; a ordem é sorteada a cada visita).
+- **Bartzen:** os botões levam ao site de solicitação de projeto (`bartzenProjetoUrl` em `site.json`).
