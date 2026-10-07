@@ -21,7 +21,8 @@ const up = d => '../'.repeat(d);
 // Cada ambiente é publicado como uma pasta independente (dist/<slug>/), com CSS e imagens próprios
 const R = d => '../'.repeat(d);
 const img = (f, d) => (/^https?:/.test(f) ? f : `${R(d)}imagens/${f}`);
-const ambUrl = c => `${SITE.baseUrl.replace(/\/$/, '')}/${c.slug}/`;
+// Endereço público do ambiente: "url" do ambiente (ex.: subdomínio) ou baseUrl + slug
+const ambUrl = c => (c.url ? c.url.replace(/\/?$/, '/') : `${SITE.baseUrl.replace(/\/$/, '')}/${c.slug}/`);
 const imgObj = i => (typeof i === 'string' ? { src: i } : i);
 const productUrl = p => `${ambUrl(C)}produtos/${p.slug}/`;
 const qrUrl = p => `${productUrl(p)}?qr`; // "?qr" separa no analytics os acessos vindos do QR

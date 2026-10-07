@@ -1,13 +1,13 @@
 codigo,produto,url
-ENTRADA-NFC,"Studio Bossa (tag NFC da entrada)",https://www.casacontente.com.br/casalivtatimadeiro/?nfc
-ENTRADA-QR,"Studio Bossa (QR da placa de entrada)",https://www.casacontente.com.br/casalivtatimadeiro/?entrada
-SB-01,"Closet em Freijó com portas de vidro acidato",https://www.casacontente.com.br/casalivtatimadeiro/produtos/closet-freijo-vidro-acidato/?qr
-SB-02,"Estante de canto curvo iluminada",https://www.casacontente.com.br/casalivtatimadeiro/produtos/estante-curva-iluminada/?qr
-SB-03,"Painéis em Freijó e painel curvo",https://www.casacontente.com.br/casalivtatimadeiro/produtos/paineis-freijo-painel-curvo/?qr
-SB-04,"Cozinha planejada com aéreo Ocre Solar",https://www.casacontente.com.br/casalivtatimadeiro/produtos/cozinha-planejada/?qr
-SB-05,"Sofá-cama Casulo",https://www.casacontente.com.br/casalivtatimadeiro/produtos/sofa-cama-casulo/?qr
-SB-06,"Poltrona Wooden Ball",https://www.casacontente.com.br/casalivtatimadeiro/produtos/poltrona-wooden-ball/?qr
-SB-07,"Mesas laterais Cavo (alta + baixa)",https://www.casacontente.com.br/casalivtatimadeiro/produtos/mesa-lateral-cavo/?qr
-SB-08,"Cadeira Évora",https://www.casacontente.com.br/casalivtatimadeiro/produtos/cadeira-evora/?qr
-SB-09,"Tapete Origem 4 Orgânico",https://www.casacontente.com.br/casalivtatimadeiro/produtos/tapete-origem-organico/?qr
-SB-10,"Cooktop por indução Tramontina Duo 4EI 80 com coifa integrada",https://www.casacontente.com.br/casalivtatimadeiro/produtos/cooktop-tramontina-duo-80/?qr
+ENTRADA-NFC,"Studio Bossa (tag NFC da entrada)",https://casalivtatimadeiro.casacontente.com.br/?nfc
+ENTRADA-QR,"Studio Bossa (QR da placa de entrada)",https://casalivtatimadeiro.casacontente.com.br/?entrada
+SB-01,"Closet em Freijó com portas de vidro acidato",https://casalivtatimadeiro.casacontente.com.br/produtos/closet-freijo-vidro-acidato/?qr
+SB-02,"Estante de canto curvo iluminada",https://casalivtatimadeiro.casacontente.com.br/produtos/estante-curva-iluminada/?qr
+SB-03,"Painéis em Freijó e painel curvo",https://casalivtatimadeiro.casacontente.com.br/produtos/paineis-freijo-painel-curvo/?qr
+SB-04,"Cozinha planejada com aéreo Ocre Solar",https://casalivtatimadeiro.casacontente.com.br/produtos/cozinha-planejada/?qr
+SB-05,"Sofá-cama Casulo",https://casalivtatimadeiro.casacontente.com.br/produtos/sofa-cama-casulo/?qr
+SB-06,"Poltrona Wooden Ball",https://casalivtatimadeiro.casacontente.com.br/produtos/poltrona-wooden-ball/?qr
+SB-07,"Mesas laterais Cavo (alta + baixa)",https://casalivtatimadeiro.casacontente.com.br/produtos/mesa-lateral-cavo/?qr
+SB-08,"Cadeira Évora",https://casalivtatimadeiro.casacontente.com.br/produtos/cadeira-evora/?qr
+SB-09,"Tapete Origem 4 Orgânico",https://casalivtatimadeiro.casacontente.com.br/produtos/tapete-origem-organico/?qr
+SB-10,"Cooktop por indução Tramontina Duo 4EI 80 com coifa integrada",https://casalivtatimadeiro.casacontente.com.br/produtos/cooktop-tramontina-duo-80/?qr
